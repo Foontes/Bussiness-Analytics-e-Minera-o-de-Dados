@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 5
+names: ['Left_ear', 'Left_eye', 'Nouse', 'Right_ear', 'Right_eye']
+
+roboflow:
+  workspace: catrecognizer01
+  project: my-first-project-dlaig
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/catrecognizer01/my-first-project-dlaig/dataset/1
